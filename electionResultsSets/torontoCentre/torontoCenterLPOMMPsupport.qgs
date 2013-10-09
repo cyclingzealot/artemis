@@ -29,13 +29,13 @@
                 <legendlayerfile isInOverview="0" layerid="resultsTorontoCentreReferendumAndElection0220131008224015713" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ed097 [307]" showFeatureCount="1">
-            <filegroup open="true" hidden="false">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ed097 [307]" showFeatureCount="1">
+            <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="ed09720131008215231728" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <Composer title="Toronto Centre MMP+LPO support draft" visible="0">
+    <Composer title="Toronto Centre MMP+LPO support draft" visible="1">
         <Composition printResolution="300" paperWidth="210" snapGridOffsetX="0" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="0">
             <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" symbolHeight="4" wrapChar="" fontColor="#000000" columnSpace="2" columnCount="1">
                 <styles>
@@ -118,10 +118,10 @@
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLegend>
-            <ComposerLabel valign="32" labelText="Polling bounderies of 2007 election &amp; MMP referendum for Toronto-Centre.  Polling areas are coloured according to a weighted average of 60% MMP support and 40% LPO support.  Hnece, the stronger the colouring, the stronger the likelihood of finding households with supporters of both PR and Liberal.  About 7% of polling areas are missing data due to merge errors, which can be corrected with further labour.  -- Julien Lamarche, julien.lamarche@gmail.com" htmlState="0" halign="1" margin="1">
+            <ComposerLabel valign="32" labelText="Polling bounderies of 2007 MMP referendum for Toronto-Centre.  Polling areas are coloured according to MMP support.  Hence, the stronger the colouring, the stronger the likelihood of finding a household with supporter of PR.  About 7% of polling areas are missing data due to merge errors, which can be corrected with further labour.  All polls included after merge errors, even those with a small number of voters.  Top 10 polls are labelled by their rank for MMP supprot.&#xa;-- Julien Lamarche, julien.lamarche@gmail.com" htmlState="0" halign="1" margin="1">
                 <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="64.0462" x="17.4007" transparency="0" y="183.356" rotation="0" height="101.129" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.08725" uuid="{f96210b7-f987-4034-ae36-41fc97bdbf83}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="64.0462" x="17.4007" transparency="0" y="183.356" rotation="0" height="101.129" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="1.62752" uuid="{f96210b7-f987-4034-ae36-41fc97bdbf83}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
