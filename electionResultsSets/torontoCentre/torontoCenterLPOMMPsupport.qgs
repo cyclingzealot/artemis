@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>1368217.57702031265944242</xmin>
-            <ymin>5488621.47752500046044588</ymin>
-            <xmax>1378768.36597968731075525</xmax>
-            <ymax>5495032.08347500022500753</ymax>
+            <xmin>1371309.96463251113891602</xmin>
+            <ymin>5490122.16707385051995516</ymin>
+            <xmax>1373563.69328680774196982</xmax>
+            <ymax>5491491.52119291666895151</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -29,13 +29,13 @@
                 <legendlayerfile isInOverview="0" layerid="resultsTorontoCentreReferendumAndElection0220131008224015713" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ed097 [307]" showFeatureCount="1">
-            <filegroup open="false" hidden="false">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ed097 [307]" showFeatureCount="1">
+            <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="ed09720131008215231728" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <Composer title="Toronto Centre MMP+LPO support draft" visible="1">
+    <Composer title="Toronto Centre MMP+LPO support draft" visible="0">
         <Composition printResolution="300" paperWidth="210" snapGridOffsetX="0" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="0">
             <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" symbolHeight="4" wrapChar="" fontColor="#000000" columnSpace="2" columnCount="1">
                 <styles>
@@ -47,7 +47,7 @@
                 </styles>
                 <Model autoUpdate="1">
                     <LayerItem layerId="ed09720131008215231728" userText="" style="subgroup" text="ed097" showFeatureCount="0">
-                        <VectorClassificationItemNg userText="" text="0.0000 - 0.4122">
+                        <VectorClassificationItemNg userText="" text="Below 50%">
                             <symbols>
                                 <symbol alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
@@ -63,7 +63,7 @@
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="0.4122 - 0.5000">
+                        <VectorClassificationItemNg userText="" text="50%-58%">
                             <symbols>
                                 <symbol alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
@@ -79,7 +79,7 @@
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="0.5000 - 0.5696">
+                        <VectorClassificationItemNg userText="" text="58%-66%">
                             <symbols>
                                 <symbol alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
@@ -95,7 +95,7 @@
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="0.5696 - 0.7391">
+                        <VectorClassificationItemNg userText="" text="66%-74%">
                             <symbols>
                                 <symbol alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
@@ -113,7 +113,7 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="42.7" x="105" transparency="0" y="232.885" rotation="0" height="43.9" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="1.62752" uuid="{c4d06088-67ed-4def-96b4-f9c65acd1404}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="34.1" x="105" transparency="0" y="232.885" rotation="0" height="43.9" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="1.62752" uuid="{c4d06088-67ed-4def-96b4-f9c65acd1404}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -171,7 +171,7 @@
         </Composition>
     </Composer>
     <projectlayers layercount="2">
-        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>ed09720131008215231728</id>
             <datasource>./ed097.shp</datasource>
             <title></title>
@@ -199,10 +199,10 @@
             </vectorjoins>
             <renderer-v2 attr="resultsTorontoCentreReferendumAndElection02_% MMP" symbollevels="0" type="graduatedSymbol">
                 <ranges>
-                    <range symbol="0" lower="0.000000" upper="0.412175" label="0.0000 - 0.4122"/>
-                    <range symbol="1" lower="0.412175" upper="0.500000" label="0.4122 - 0.5000"/>
-                    <range symbol="2" lower="0.500000" upper="0.569600" label="0.5000 - 0.5696"/>
-                    <range symbol="3" lower="0.569600" upper="0.739100" label="0.5696 - 0.7391"/>
+                    <range symbol="0" lower="0.000000" upper="0.500000" label="Below 50%"/>
+                    <range symbol="1" lower="0.500000" upper="0.580000" label="50%-58%"/>
+                    <range symbol="2" lower="0.580000" upper="0.660000" label="58%-66%"/>
+                    <range symbol="3" lower="0.660000" upper="0.740000" label="66%-74%"/>
                 </ranges>
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
