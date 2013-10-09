@@ -26,25 +26,17 @@
     <legend updateDrawingOrder="true" activeLayer="ed09720131008215231728">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="resultsTorontoCentreReferendumAndElection02" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="resultsTorontoCentreReferendumAndElection0220131008224015713" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="resultsTorontoCentreReferendumAndElection0220131008224015713" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ed097" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ed097 [307]" showFeatureCount="1">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="ed09720131008215231728" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <Composer title="Toronto Centre MMP+LPO support draft" visible="1">
+    <Composer title="Toronto Centre MMP+LPO support draft" visible="0">
         <Composition printResolution="300" paperWidth="210" snapGridOffsetX="0" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="0">
-            <ComposerLabel valign="32" labelText="Polling bounderies of 2007 election &amp; MMP referendum for Toronto-Centre.  Polling areas are coloured according to a weighted average of 60% MMP support and 40% LPO support.  Hnece, the stronger the colouring, the stronger the likelihood of finding households with supporters of both PR and Liberal.  About 7% of polling areas are missing data due to merge errors, which can be corrected with further labour.  -- Julien Lamarche, julien.lamarche@gmail.com" htmlState="0" halign="1" margin="1">
-                <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="64.0462" x="17.4007" transparency="0" y="183.356" rotation="0" height="101.129" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.08725" uuid="{f96210b7-f987-4034-ae36-41fc97bdbf83}" id="" background="true" blendMode="0" positionLock="false">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
             <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" symbolHeight="4" wrapChar="" fontColor="#000000" columnSpace="2" columnCount="1">
                 <styles>
                     <style marginBottom="2" name="title" font="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0"/>
@@ -54,9 +46,8 @@
                     <style marginTop="2" marginLeft="2" name="symbolLabel" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
                 </styles>
                 <Model autoUpdate="1">
-                    <LayerItem layerId="resultsTorontoCentreReferendumAndElection0220131008224015713" userText="" style="subgroup" text="resultsTorontoCentreReferendumAndElection02" showFeatureCount="0"/>
                     <LayerItem layerId="ed09720131008215231728" userText="" style="subgroup" text="ed097" showFeatureCount="0">
-                        <VectorClassificationItemNg userText="" text="0.0000 - 0.4358">
+                        <VectorClassificationItemNg userText="" text="0.0000 - 0.4122">
                             <symbols>
                                 <symbol alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
@@ -72,12 +63,12 @@
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="0.4358 - 0.4943">
+                        <VectorClassificationItemNg userText="" text="0.4122 - 0.5000">
                             <symbols>
                                 <symbol alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
                                         <prop k="border_width_unit" v="MM"/>
-                                        <prop k="color" v="255,200,179,255"/>
+                                        <prop k="color" v="245,170,255,255"/>
                                         <prop k="color_border" v="0,0,0,255"/>
                                         <prop k="offset" v="0,0"/>
                                         <prop k="offset_unit" v="MM"/>
@@ -88,12 +79,12 @@
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="0.4943 - 0.5291">
+                        <VectorClassificationItemNg userText="" text="0.5000 - 0.5696">
                             <symbols>
                                 <symbol alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
                                         <prop k="border_width_unit" v="MM"/>
-                                        <prop k="color" v="255,146,103,255"/>
+                                        <prop k="color" v="235,85,255,255"/>
                                         <prop k="color_border" v="0,0,0,255"/>
                                         <prop k="offset" v="0,0"/>
                                         <prop k="offset_unit" v="MM"/>
@@ -104,12 +95,12 @@
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="0.5291 - 0.6302">
+                        <VectorClassificationItemNg userText="" text="0.5696 - 0.7391">
                             <symbols>
                                 <symbol alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
                                         <prop k="border_width_unit" v="MM"/>
-                                        <prop k="color" v="255,92,28,255"/>
+                                        <prop k="color" v="226,0,255,255"/>
                                         <prop k="color_border" v="0,0,0,255"/>
                                         <prop k="offset" v="0,0"/>
                                         <prop k="offset_unit" v="MM"/>
@@ -122,11 +113,19 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="90.9" x="105" transparency="0" y="232.885" rotation="0" height="51.6" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.29858" uuid="{c4d06088-67ed-4def-96b4-f9c65acd1404}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="42.7" x="105" transparency="0" y="232.885" rotation="0" height="43.9" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="1.62752" uuid="{c4d06088-67ed-4def-96b4-f9c65acd1404}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLegend>
+            <ComposerLabel valign="32" labelText="Polling bounderies of 2007 election &amp; MMP referendum for Toronto-Centre.  Polling areas are coloured according to a weighted average of 60% MMP support and 40% LPO support.  Hnece, the stronger the colouring, the stronger the likelihood of finding households with supporters of both PR and Liberal.  About 7% of polling areas are missing data due to merge errors, which can be corrected with further labour.  -- Julien Lamarche, julien.lamarche@gmail.com" htmlState="0" halign="1" margin="1">
+                <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="64.0462" x="17.4007" transparency="0" y="183.356" rotation="0" height="101.129" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.08725" uuid="{f96210b7-f987-4034-ae36-41fc97bdbf83}" id="" background="true" blendMode="0" positionLock="false">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
             <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
                 <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewInverted="false">
                     <symbol alpha="0.3" type="fill" name="">
@@ -142,7 +141,7 @@
                         </layer>
                     </symbol>
                 </overviewFrame>
-                <Extent ymin="5.48875e+06" xmin="1.3711e+06" ymax="5.49488e+06" xmax="1.37609e+06"/>
+                <Extent ymin="5.48875e+06" xmin="1.3711e+06" ymax="5.49489e+06" xmax="1.37609e+06"/>
                 <LayerSet/>
                 <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
                     <symbol alpha="1" type="line" name="">
@@ -164,7 +163,7 @@
                         <fontColor red="0" blue="0" green="0"/>
                     </Annotation>
                 </Grid>
-                <ComposerItem width="178.499" x="17.4007" transparency="0" y="13.4148" rotation="0" height="219.47" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.08725" uuid="{cc660d9a-6efa-44d2-8c33-345bf8e504f7}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="178.499" x="17.4007" transparency="0" y="13.4148" rotation="0" height="219.47" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.62752" uuid="{cc660d9a-6efa-44d2-8c33-345bf8e504f7}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -172,7 +171,7 @@
         </Composition>
     </Composer>
     <projectlayers layercount="2">
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>ed09720131008215231728</id>
             <datasource>./ed097.shp</datasource>
             <title></title>
@@ -198,12 +197,12 @@
             <vectorjoins>
                 <join joinFieldName="Poll" targetFieldName="POLL_DIV_3" memoryCache="1" joinLayerId="resultsTorontoCentreReferendumAndElection0220131008224015713"/>
             </vectorjoins>
-            <renderer-v2 attr="resultsTorontoCentreReferendumAndElection02_.4LPO*0.6MMP" symbollevels="0" type="graduatedSymbol">
+            <renderer-v2 attr="resultsTorontoCentreReferendumAndElection02_% MMP" symbollevels="0" type="graduatedSymbol">
                 <ranges>
-                    <range symbol="0" lower="0.000000" upper="0.435775" label="0.0000 - 0.4358"/>
-                    <range symbol="1" lower="0.435775" upper="0.494350" label="0.4358 - 0.4943"/>
-                    <range symbol="2" lower="0.494350" upper="0.529100" label="0.4943 - 0.5291"/>
-                    <range symbol="3" lower="0.529100" upper="0.630200" label="0.5291 - 0.6302"/>
+                    <range symbol="0" lower="0.000000" upper="0.412175" label="0.0000 - 0.4122"/>
+                    <range symbol="1" lower="0.412175" upper="0.500000" label="0.4122 - 0.5000"/>
+                    <range symbol="2" lower="0.500000" upper="0.569600" label="0.5000 - 0.5696"/>
+                    <range symbol="3" lower="0.569600" upper="0.739100" label="0.5696 - 0.7391"/>
                 </ranges>
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
@@ -221,7 +220,7 @@
                     <symbol alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="255,200,179,255"/>
+                            <prop k="color" v="245,170,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
@@ -233,7 +232,7 @@
                     <symbol alpha="1" type="fill" name="2">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="255,146,103,255"/>
+                            <prop k="color" v="235,85,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
@@ -245,7 +244,7 @@
                     <symbol alpha="1" type="fill" name="3">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="border_width_unit" v="MM"/>
-                            <prop k="color" v="255,92,28,255"/>
+                            <prop k="color" v="226,0,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
@@ -271,8 +270,9 @@
                 </source-symbol>
                 <colorramp type="gradient" name="[source]">
                     <prop k="color1" v="255,255,255,255"/>
-                    <prop k="color2" v="255,92,28,255"/>
+                    <prop k="color2" v="226,0,255,255"/>
                     <prop k="discrete" v="0"/>
+                    <prop k="stops" v="1;226,0,255,255"/>
                 </colorramp>
                 <mode name="quantile"/>
                 <rotation field=""/>
@@ -299,8 +299,8 @@
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="rankMMP"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -365,7 +365,7 @@
                 <property key="labeling/shapeBorderColorR" value="128"/>
                 <property key="labeling/shapeBorderWidth" value="0"/>
                 <property key="labeling/shapeBorderWidthUnits" value="1"/>
-                <property key="labeling/shapeDraw" value="false"/>
+                <property key="labeling/shapeDraw" value="true"/>
                 <property key="labeling/shapeFillColorA" value="255"/>
                 <property key="labeling/shapeFillColorB" value="255"/>
                 <property key="labeling/shapeFillColorG" value="255"/>
@@ -385,7 +385,7 @@
                 <property key="labeling/shapeSizeX" value="0"/>
                 <property key="labeling/shapeSizeY" value="0"/>
                 <property key="labeling/shapeTransparency" value="0"/>
-                <property key="labeling/shapeType" value="0"/>
+                <property key="labeling/shapeType" value="3"/>
                 <property key="labeling/textColorA" value="255"/>
                 <property key="labeling/textColorB" value="0"/>
                 <property key="labeling/textColorG" value="0"/>
@@ -426,6 +426,7 @@
                 <edittype labelontop="0" editable="1" type="0" name="POLL_DIV_3"/>
                 <edittype labelontop="0" editable="1" type="0" name="SHAPE_area"/>
                 <edittype labelontop="0" editable="1" type="0" name="SHAPE_len"/>
+                <edittype labelontop="0" editable="1" type="0" name="rankMMP"/>
                 <edittype labelontop="0" editable="0" type="0" name="resultsTorontoCentreReferendumAndElection02_% LPO"/>
                 <edittype labelontop="0" editable="0" type="0" name="resultsTorontoCentreReferendumAndElection02_% MMP"/>
                 <edittype labelontop="0" editable="0" type="0" name="resultsTorontoCentreReferendumAndElection02_.4LPO*0.6MMP"/>
@@ -473,9 +474,9 @@
                 <edittype labelontop="0" editable="0" type="0" name="resultsTorontoCentreReferendumAndElection_Unmarked"/>
                 <edittype labelontop="0" editable="0" type="0" name="resultsTorontoCentreReferendumAndElection_Voter turnout"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <aliases>
                 <alias field="ED_ID" index="0" name=""/>
@@ -509,9 +510,9 @@
             <provider encoding="System">delimitedtext</provider>
             <previewExpression></previewExpression>
             <vectorjoins/>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
