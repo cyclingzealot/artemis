@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>1371309.96463251113891602</xmin>
-            <ymin>5490122.16707385051995516</ymin>
-            <xmax>1373563.69328680774196982</xmax>
-            <ymax>5491491.52119291666895151</ymax>
+            <xmin>1368440.55894023622386158</xmin>
+            <ymin>5488359.91061556059867144</ymin>
+            <xmax>1378545.3840597637463361</xmax>
+            <ymax>5495293.65038444008678198</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -26,7 +26,7 @@
     <legend updateDrawingOrder="true" activeLayer="ed09720131008215231728">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="resultsTorontoCentreReferendumAndElection02" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="resultsTorontoCentreReferendumAndElection0220131008224015713" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="resultsTorontoCentreReferendumAndElection0220131025204733308" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ed097 [307]" showFeatureCount="1">
@@ -112,16 +112,17 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
+                    <LayerItem layerId="resultsTorontoCentreReferendumAndElection0220131025204733308" userText="" style="subgroup" text="resultsTorontoCentreReferendumAndElection02" showFeatureCount="0"/>
                 </Model>
-                <ComposerItem width="34.1" x="105" transparency="0" y="232.885" rotation="0" height="43.9" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="1.62752" uuid="{c4d06088-67ed-4def-96b4-f9c65acd1404}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="90.9" x="105" transparency="0" y="232.885" rotation="0" height="51.6" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="1.52349" uuid="{c4d06088-67ed-4def-96b4-f9c65acd1404}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLegend>
-            <ComposerLabel valign="32" labelText="Polling bounderies of 2007 MMP referendum for Toronto-Centre.  Polling areas are coloured according to MMP support.  Hence, the stronger the colouring, the stronger the likelihood of finding a household with supporter of PR.  About 7% of polling areas are missing data due to merge errors, which can be corrected with further labour.  All polls included after merge errors, even those with a small number of voters.  Top 10 polls with more than 25 voters are labelled by their rank for MMP support.&#xa;-- Julien Lamarche, julien.lamarche@gmail.com" htmlState="0" halign="1" margin="1">
+            <ComposerLabel valign="32" labelText="Polling bounderies of 2007 MMP referendum for Toronto-Centre.  Polling areas are coloured according to MMP support.  Hence, the stronger the colouring, the stronger the likelihood of finding a household with supporter of PR.  3,3% (10) of polling areas are missing data due to merge errors.  All polls included after merge errors, even those with a small number of voters.  Top 10 polls with more than 25 voters are labelled by their rank for MMP support.&#xa;-- Julien Lamarche, julien.lamarche@gmail.com" htmlState="0" halign="1" margin="1">
                 <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="64.0462" x="17.4007" transparency="0" y="183.356" rotation="0" height="101.129" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="1.62752" uuid="{f96210b7-f987-4034-ae36-41fc97bdbf83}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="65.9605" x="17.4007" transparency="0" y="183.356" rotation="0" height="101.129" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.23826" uuid="{f96210b7-f987-4034-ae36-41fc97bdbf83}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -163,7 +164,7 @@
                         <fontColor red="0" blue="0" green="0"/>
                     </Annotation>
                 </Grid>
-                <ComposerItem width="178.499" x="17.4007" transparency="0" y="13.4148" rotation="0" height="219.47" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.62752" uuid="{cc660d9a-6efa-44d2-8c33-345bf8e504f7}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="178.499" x="17.4007" transparency="0" y="13.4148" rotation="0" height="219.47" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.23826" uuid="{cc660d9a-6efa-44d2-8c33-345bf8e504f7}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -195,14 +196,14 @@
             <provider encoding="System">ogr</provider>
             <previewExpression>COALESCE( "ED_ID", '&lt;NULL>' )</previewExpression>
             <vectorjoins>
-                <join joinFieldName="Poll" targetFieldName="POLL_DIV_3" memoryCache="1" joinLayerId="resultsTorontoCentreReferendumAndElection0220131008224015713"/>
+                <join joinFieldName="Poll" targetFieldName="POLL_DIV_3" memoryCache="1" joinLayerId="resultsTorontoCentreReferendumAndElection0220131025204733308"/>
             </vectorjoins>
             <renderer-v2 attr="resultsTorontoCentreReferendumAndElection02_% MMP" symbollevels="0" type="graduatedSymbol">
                 <ranges>
-                    <range symbol="0" lower="0.000000" upper="0.500000" label="Below 50%"/>
-                    <range symbol="1" lower="0.500000" upper="0.580000" label="50%-58%"/>
-                    <range symbol="2" lower="0.580000" upper="0.660000" label="58%-66%"/>
-                    <range symbol="3" lower="0.660000" upper="0.740000" label="66%-74%"/>
+                    <range symbol="0" lower="0.000000" upper="0.413000" label="0.0000 - 0.4130"/>
+                    <range symbol="1" lower="0.413000" upper="0.498700" label="0.4130 - 0.4987"/>
+                    <range symbol="2" lower="0.498700" upper="0.567600" label="0.4987 - 0.5676"/>
+                    <range symbol="3" lower="0.567600" upper="0.739100" label="0.5676 - 0.7391"/>
                 </ranges>
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
@@ -429,6 +430,8 @@
                 <edittype labelontop="0" editable="1" type="0" name="rankMMP"/>
                 <edittype labelontop="0" editable="0" type="0" name="resultsTorontoCentreReferendumAndElection02_% LPO"/>
                 <edittype labelontop="0" editable="0" type="0" name="resultsTorontoCentreReferendumAndElection02_% MMP"/>
+                <edittype labelontop="0" editable="0" type="0" name="resultsTorontoCentreReferendumAndElection02_% participation"/>
+                <edittype labelontop="0" editable="0" type="0" name="resultsTorontoCentreReferendumAndElection02_% votes wasted"/>
                 <edittype labelontop="0" editable="0" type="0" name="resultsTorontoCentreReferendumAndElection02_.4LPO*0.6MMP"/>
                 <edittype labelontop="0" editable="0" type="0" name="resultsTorontoCentreReferendumAndElection02_AHMED (SN)"/>
                 <edittype labelontop="0" editable="0" type="0" name="resultsTorontoCentreReferendumAndElection02_BOYDEN (COM)"/>
@@ -486,8 +489,8 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>resultsTorontoCentreReferendumAndElection0220131008224015713</id>
-            <datasource>file:./resultsTorontoCentreReferendumAndElection02.csv?type=csv&amp;delimiter=%5Ct&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+            <id>resultsTorontoCentreReferendumAndElection0220131025204733308</id>
+            <datasource>file:./resultsTorontoCentreReferendumAndElection02.csv?type=csv&amp;delimiter=%5Ct&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=yes</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -508,11 +511,11 @@
             </srs>
             <customproperties/>
             <provider encoding="System">delimitedtext</provider>
-            <previewExpression>COALESCE("Riding", '&lt;NULL>')||', '||COALESCE("Poll", '&lt;NULL>')||', '||COALESCE("R", '&lt;NULL>')||', '||COALESCE("FPTP", '&lt;NULL>')||', '||COALESCE("MMP", '&lt;NULL>')||', '||COALESCE("Rejected", '&lt;NULL>')||', '||COALESCE("Unmarked", '&lt;NULL>')||', '||COALESCE("Declined", '&lt;NULL>')||', '||COALESCE("Voter turnout", '&lt;NULL>')||', '||COALESCE("Number of names", '&lt;NULL>')||', '||COALESCE("Location of voting place", '&lt;NULL>')||', '||COALESCE("AHMED (SN)", '&lt;NULL>')||', '||COALESCE("BOYDEN (COM)", '&lt;NULL>')||', '||COALESCE("FERNANDEZ (IND)", '&lt;NULL>')||', '||COALESCE("GONZ�LEZ (NDPo)", '&lt;NULL>')||', '||COALESCE("GREEN (LIB)", '&lt;NULL>')||', '||COALESCE("LEROUX (IND)", '&lt;NULL>')||', '||COALESCE("MCLEAN (GPO)", '&lt;NULL>')||', '||COALESCE("SMITHERMAN (LPO)", '&lt;NULL>')||', '||COALESCE("TAYLOR (PCO)", '&lt;NULL>')||', '||COALESCE("% LPO", '&lt;NULL>')||', '||COALESCE("% MMP", '&lt;NULL>')||', '||COALESCE(".4LPO*0.6MMP", '&lt;NULL>')||', '||COALESCE("Location of voting placed", '&lt;NULL>')</previewExpression>
+            <previewExpression></previewExpression>
             <vectorjoins/>
-            <editform>.</editform>
+            <editform></editform>
             <editforminit></editforminit>
-            <annotationform>.</annotationform>
+            <annotationform></annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
