@@ -4,9 +4,9 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>1368440.55894023622386158</xmin>
+            <xmin>1368358.87425793893635273</xmin>
             <ymin>5488359.91061556059867144</ymin>
-            <xmax>1378545.3840597637463361</xmax>
+            <xmax>1378627.06874206103384495</xmax>
             <ymax>5495293.65038444008678198</ymax>
         </extent>
         <projections>1</projections>
@@ -26,7 +26,7 @@
     <legend updateDrawingOrder="true" activeLayer="ed09720131008215231728">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="resultsTorontoCentreReferendumAndElection02" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="resultsTorontoCentreReferendumAndElection0220131025204733308" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="resultsTorontoCentreReferendumAndElection0220131025204733308" visible="0"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ed097 [307]" showFeatureCount="1">
@@ -37,6 +37,14 @@
     </legend>
     <Composer title="Toronto Centre MMP+LPO support draft" visible="0">
         <Composition printResolution="300" paperWidth="210" snapGridOffsetX="0" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="297" alignmentSnapTolerance="2" printAsRaster="0">
+            <ComposerLabel valign="32" labelText="Polling bounderies of 2007 MMP referendum for Toronto-Centre.  Polling areas are coloured according to MMP support.  Hence, the stronger the colouring, the stronger the likelihood of finding a household with supporter of PR.  3,3% (10) of polling areas are missing data due to merge errors.  All polls included after merge errors, even those with a small number of voters.  Top 10 polls with more than 25 voters are labelled by their rank for MMP support.&#xa;-- Julien Lamarche, julien.lamarche@gmail.com" htmlState="0" halign="1" margin="1">
+                <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem width="65.9605" x="17.4007" transparency="0" y="188.717" rotation="0" height="90.9648" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.23826" uuid="{f96210b7-f987-4034-ae36-41fc97bdbf83}" id="" background="true" blendMode="0" positionLock="true">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
             <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" symbolHeight="4" wrapChar="" fontColor="#000000" columnSpace="2" columnCount="1">
                 <styles>
                     <style marginBottom="2" name="title" font="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0"/>
@@ -47,7 +55,7 @@
                 </styles>
                 <Model autoUpdate="1">
                     <LayerItem layerId="ed09720131008215231728" userText="" style="subgroup" text="ed097" showFeatureCount="0">
-                        <VectorClassificationItemNg userText="" text="Below 50%">
+                        <VectorClassificationItemNg userText="" text="0 - 41,3%">
                             <symbols>
                                 <symbol alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
@@ -63,7 +71,7 @@
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="50%-58%">
+                        <VectorClassificationItemNg userText="" text="41,3-49,9%">
                             <symbols>
                                 <symbol alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
@@ -79,7 +87,7 @@
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="58%-66%">
+                        <VectorClassificationItemNg userText="" text="49,9%-56,8%">
                             <symbols>
                                 <symbol alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
@@ -95,7 +103,7 @@
                                 </symbol>
                             </symbols>
                         </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="66%-74%">
+                        <VectorClassificationItemNg userText="" text="56,8%-73,9%">
                             <symbols>
                                 <symbol alpha="1" type="fill" name="classificationSymbol">
                                     <layer pass="0" class="SimpleFill" locked="0">
@@ -112,21 +120,12 @@
                             </symbols>
                         </VectorClassificationItemNg>
                     </LayerItem>
-                    <LayerItem layerId="resultsTorontoCentreReferendumAndElection0220131025204733308" userText="" style="subgroup" text="resultsTorontoCentreReferendumAndElection02" showFeatureCount="0"/>
                 </Model>
-                <ComposerItem width="90.9" x="105" transparency="0" y="232.885" rotation="0" height="51.6" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="1.52349" uuid="{c4d06088-67ed-4def-96b4-f9c65acd1404}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="39.1" x="156.8" transparency="0" y="240.585" rotation="0" height="43.9" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.23826" uuid="{c4d06088-67ed-4def-96b4-f9c65acd1404}" id="" background="true" blendMode="0" positionLock="true">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerLegend>
-            <ComposerLabel valign="32" labelText="Polling bounderies of 2007 MMP referendum for Toronto-Centre.  Polling areas are coloured according to MMP support.  Hence, the stronger the colouring, the stronger the likelihood of finding a household with supporter of PR.  3,3% (10) of polling areas are missing data due to merge errors.  All polls included after merge errors, even those with a small number of voters.  Top 10 polls with more than 25 voters are labelled by their rank for MMP support.&#xa;-- Julien Lamarche, julien.lamarche@gmail.com" htmlState="0" halign="1" margin="1">
-                <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
-                <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem width="65.9605" x="17.4007" transparency="0" y="183.356" rotation="0" height="101.129" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.23826" uuid="{f96210b7-f987-4034-ae36-41fc97bdbf83}" id="" background="true" blendMode="0" positionLock="false">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLabel>
             <ComposerMap keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
                 <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewInverted="false">
                     <symbol alpha="0.3" type="fill" name="">
@@ -142,7 +141,7 @@
                         </layer>
                     </symbol>
                 </overviewFrame>
-                <Extent ymin="5.48875e+06" xmin="1.3711e+06" ymax="5.49489e+06" xmax="1.37609e+06"/>
+                <Extent ymin="5.48743e+06" xmin="1.37077e+06" ymax="5.49492e+06" xmax="1.37576e+06"/>
                 <LayerSet/>
                 <Grid gridStyle="0" crossLength="3" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
                     <symbol alpha="1" type="line" name="">
@@ -164,7 +163,7 @@
                         <fontColor red="0" blue="0" green="0"/>
                     </Annotation>
                 </Grid>
-                <ComposerItem width="178.499" x="17.4007" transparency="0" y="13.4148" rotation="0" height="219.47" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.23826" uuid="{cc660d9a-6efa-44d2-8c33-345bf8e504f7}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="178.499" x="17.4007" transparency="0" y="11.6162" rotation="0" height="268.066" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.23826" uuid="{cc660d9a-6efa-44d2-8c33-345bf8e504f7}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -172,7 +171,7 @@
         </Composition>
     </Composer>
     <projectlayers layercount="2">
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>ed09720131008215231728</id>
             <datasource>./ed097.shp</datasource>
             <title></title>
@@ -200,10 +199,10 @@
             </vectorjoins>
             <renderer-v2 attr="resultsTorontoCentreReferendumAndElection02_% MMP" symbollevels="0" type="graduatedSymbol">
                 <ranges>
-                    <range symbol="0" lower="0.000000" upper="0.413000" label="0.0000 - 0.4130"/>
-                    <range symbol="1" lower="0.413000" upper="0.498700" label="0.4130 - 0.4987"/>
-                    <range symbol="2" lower="0.498700" upper="0.567600" label="0.4987 - 0.5676"/>
-                    <range symbol="3" lower="0.567600" upper="0.739100" label="0.5676 - 0.7391"/>
+                    <range symbol="0" lower="0.000000" upper="0.413000" label="0 - 41,3%"/>
+                    <range symbol="1" lower="0.413000" upper="0.498700" label="41,3-49,9%"/>
+                    <range symbol="2" lower="0.498700" upper="0.567600" label="49,9%-56,8%"/>
+                    <range symbol="3" lower="0.567600" upper="0.739100" label="56,8%-73,9%"/>
                 </ranges>
                 <symbols>
                     <symbol alpha="1" type="fill" name="0">
@@ -513,9 +512,9 @@
             <provider encoding="System">delimitedtext</provider>
             <previewExpression></previewExpression>
             <vectorjoins/>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
