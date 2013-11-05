@@ -193,7 +193,7 @@
             </ComposerMap>
         </Composition>
     </Composer>
-    <Composer title="Poll bounderies superimpose" visible="1">
+    <Composer title="Poll bounderies superimpose" visible="0">
         <Composition printResolution="300" paperWidth="215.9" snapGridOffsetX="0" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="279.4" alignmentSnapTolerance="2" printAsRaster="0">
             <ComposerLabel valign="32" labelText="Results of 2007 MMP referendum in Toronto-Center, graduated from white to purple according to legend, with 2011 federal polling boundaries bounded in think black (provincial polling boundaries are bounded thinly).  &#xa;&#xa;Top 20 provincial polling boundaries are maked 1-20 in bold on yellow circle , while federal polling boundaries are all labbled by polling numbers in black on white rectangle.&#xa;&#xa;Thus, federal polling boundaries most likely to support PR can be identified.&#xa;&#xa;Julien Lamarche &#xa;julien.lamarche@gmail.com" htmlState="0" halign="1" margin="1">
                 <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
