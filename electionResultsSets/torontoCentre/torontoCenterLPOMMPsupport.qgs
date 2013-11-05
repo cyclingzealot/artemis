@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>1370168.27969774347729981</xmin>
-            <ymin>5488615.33714808709919453</ymin>
-            <xmax>1377278.96900098747573793</xmax>
-            <ymax>5493494.55758217163383961</ymax>
+            <xmin>1371923.56472741579636931</xmin>
+            <ymin>5487560.71398134436458349</ymin>
+            <xmax>1379056.03626474132761359</xmax>
+            <ymax>5492439.93441542889922857</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,7 +23,7 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="federalPollingBoundries3509320131104183036135">
+    <legend updateDrawingOrder="true" activeLayer="ed09720131008215231728">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="resultsTorontoCentreReferendumAndElection02" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="resultsTorontoCentreReferendumAndElection0220131025204733308" visible="0"/>
@@ -193,7 +193,7 @@
             </ComposerMap>
         </Composition>
     </Composer>
-    <Composer title="Poll bounderies superimpose" visible="0">
+    <Composer title="Poll bounderies superimpose" visible="1">
         <Composition printResolution="300" paperWidth="215.9" snapGridOffsetX="0" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="279.4" alignmentSnapTolerance="2" printAsRaster="0">
             <ComposerLabel valign="32" labelText="Results of 2007 MMP referendum in Toronto-Center, graduated from white to purple according to legend, with 2011 federal polling boundaries bounded in think black (provincial polling boundaries are bounded thinly).  &#xa;&#xa;Top 20 provincial polling boundaries are maked 1-20 in bold on yellow circle , while federal polling boundaries are all labbled by polling numbers in black on white rectangle.&#xa;&#xa;Thus, federal polling boundaries most likely to support PR can be identified.&#xa;&#xa;Julien Lamarche &#xa;julien.lamarche@gmail.com" htmlState="0" halign="1" margin="1">
                 <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0"/>
@@ -313,7 +313,7 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem width="67.5" x="16.2289" transparency="0" y="204.395" rotation="0" height="58.6045" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.21826" uuid="{d83519ca-292e-4c0c-b361-66bf4d56819d}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="67.5" x="16.2289" transparency="0" y="204.395" rotation="0" height="57.9" positionMode="0" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="1.72967" uuid="{d83519ca-292e-4c0c-b361-66bf4d56819d}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -355,130 +355,15 @@
                         <fontColor red="0" blue="0" green="0"/>
                     </Annotation>
                 </Grid>
-                <ComposerItem width="184.771" x="16.2289" transparency="0" y="13.0733" rotation="0" height="249.927" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.21826" uuid="{9d3c7f25-c788-4da2-a496-085198f6e820}" id="" background="true" blendMode="0" positionLock="false">
+                <ComposerItem width="184.771" x="16.2289" transparency="0" y="13.0733" rotation="0" height="249.927" positionMode="0" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1.72967" uuid="{9d3c7f25-c788-4da2-a496-085198f6e820}" id="" background="true" blendMode="0" positionLock="false">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
             </ComposerMap>
-            <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" symbolHeight="4" wrapChar="" fontColor="#000000" columnSpace="2" columnCount="1">
-                <styles>
-                    <style marginBottom="2" name="title" font="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0"/>
-                    <style marginTop="2" name="group" font="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0"/>
-                    <style marginTop="2" name="subgroup" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
-                    <style marginTop="2" name="symbol" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-                    <style marginTop="2" marginLeft="2" name="symbolLabel" font="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0"/>
-                </styles>
-                <Model autoUpdate="1">
-                    <LayerItem layerId="federalPollingBoundries3509320131104183036135" userText="" style="hidden" text="federalPollingBoundries35093" showFeatureCount="0">
-                        <VectorClassificationItemNg userText="" text="federalPollingBoundries35093">
-                            <symbols>
-                                <symbol alpha="1" type="fill" name="classificationSymbol">
-                                    <layer pass="0" class="SimpleFill" locked="0">
-                                        <prop k="border_width_unit" v="MM"/>
-                                        <prop k="color" v="170,170,127,255"/>
-                                        <prop k="color_border" v="0,0,0,255"/>
-                                        <prop k="offset" v="0,0"/>
-                                        <prop k="offset_unit" v="MM"/>
-                                        <prop k="style" v="no"/>
-                                        <prop k="style_border" v="solid"/>
-                                        <prop k="width_border" v="2"/>
-                                    </layer>
-                                </symbol>
-                            </symbols>
-                        </VectorClassificationItemNg>
-                    </LayerItem>
-                    <LayerItem layerId="ed09720131008215231728" userText="" style="subgroup" text="ed097" showFeatureCount="0">
-                        <VectorClassificationItemNg userText="" text="0.0000 - 0.1478">
-                            <symbols>
-                                <symbol alpha="1" type="fill" name="classificationSymbol">
-                                    <layer pass="0" class="SimpleFill" locked="0">
-                                        <prop k="border_width_unit" v="MM"/>
-                                        <prop k="color" v="255,255,255,255"/>
-                                        <prop k="color_border" v="0,0,0,255"/>
-                                        <prop k="offset" v="0,0"/>
-                                        <prop k="offset_unit" v="MM"/>
-                                        <prop k="style" v="solid"/>
-                                        <prop k="style_border" v="solid"/>
-                                        <prop k="width_border" v="0.26"/>
-                                    </layer>
-                                </symbol>
-                            </symbols>
-                        </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="0.1478 - 0.2956">
-                            <symbols>
-                                <symbol alpha="1" type="fill" name="classificationSymbol">
-                                    <layer pass="0" class="SimpleFill" locked="0">
-                                        <prop k="border_width_unit" v="MM"/>
-                                        <prop k="color" v="255,191,252,255"/>
-                                        <prop k="color_border" v="0,0,0,255"/>
-                                        <prop k="offset" v="0,0"/>
-                                        <prop k="offset_unit" v="MM"/>
-                                        <prop k="style" v="solid"/>
-                                        <prop k="style_border" v="solid"/>
-                                        <prop k="width_border" v="0.26"/>
-                                    </layer>
-                                </symbol>
-                            </symbols>
-                        </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="0.2956 - 0.4435">
-                            <symbols>
-                                <symbol alpha="1" type="fill" name="classificationSymbol">
-                                    <layer pass="0" class="SimpleFill" locked="0">
-                                        <prop k="border_width_unit" v="MM"/>
-                                        <prop k="color" v="255,127,249,255"/>
-                                        <prop k="color_border" v="0,0,0,255"/>
-                                        <prop k="offset" v="0,0"/>
-                                        <prop k="offset_unit" v="MM"/>
-                                        <prop k="style" v="solid"/>
-                                        <prop k="style_border" v="solid"/>
-                                        <prop k="width_border" v="0.26"/>
-                                    </layer>
-                                </symbol>
-                            </symbols>
-                        </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="0.4435 - 0.5913">
-                            <symbols>
-                                <symbol alpha="1" type="fill" name="classificationSymbol">
-                                    <layer pass="0" class="SimpleFill" locked="0">
-                                        <prop k="border_width_unit" v="MM"/>
-                                        <prop k="color" v="255,63,246,255"/>
-                                        <prop k="color_border" v="0,0,0,255"/>
-                                        <prop k="offset" v="0,0"/>
-                                        <prop k="offset_unit" v="MM"/>
-                                        <prop k="style" v="solid"/>
-                                        <prop k="style_border" v="solid"/>
-                                        <prop k="width_border" v="0.26"/>
-                                    </layer>
-                                </symbol>
-                            </symbols>
-                        </VectorClassificationItemNg>
-                        <VectorClassificationItemNg userText="" text="0.5913 - 0.7391">
-                            <symbols>
-                                <symbol alpha="1" type="fill" name="classificationSymbol">
-                                    <layer pass="0" class="SimpleFill" locked="0">
-                                        <prop k="border_width_unit" v="MM"/>
-                                        <prop k="color" v="255,0,243,255"/>
-                                        <prop k="color_border" v="0,0,0,255"/>
-                                        <prop k="offset" v="0,0"/>
-                                        <prop k="offset_unit" v="MM"/>
-                                        <prop k="style" v="solid"/>
-                                        <prop k="style_border" v="solid"/>
-                                        <prop k="width_border" v="0.26"/>
-                                    </layer>
-                                </symbol>
-                            </symbols>
-                        </VectorClassificationItemNg>
-                    </LayerItem>
-                </Model>
-                <ComposerItem width="67.5" x="32.0071" transparency="0" y="188.436" rotation="0" height="57.9" positionMode="0" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.21826" uuid="{22270ca6-05cf-42a0-af54-e150ca61876f}" id="" background="true" blendMode="0" positionLock="false">
-                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-                </ComposerItem>
-            </ComposerLegend>
         </Composition>
     </Composer>
     <projectlayers layercount="3">
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>ed09720131008215231728</id>
             <datasource>./ed097.shp</datasource>
             <title></title>
@@ -615,7 +500,7 @@
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidWhole" value="false"/>
                 <property key="labeling/decimals" value="3"/>
-                <property key="labeling/displayAll" value="false"/>
+                <property key="labeling/displayAll" value="true"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/enabled" value="true"/>
