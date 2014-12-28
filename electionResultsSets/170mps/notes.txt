@@ -1,0 +1,101 @@
+The number of votes for the winning candidate 
+	minus
+The number of votes for the highest PR supporting candidate
+	
+
+# The number of votes for the winning candidate 
+select c.DISTRICT_ID, VOTES votes_won
+from contest c 
+inner join districts d on d.DISTRTICT_ID = c.DISTRICT_ID  
+where WON = 1 
+ and d.PARLIAMENT_ID = 14;
+
+minus
+
+# The number of votes for the highest PR supporting candidate
+select c.DISTRICT_ID, max(VOTES) votes_pr
+from contest c 
+inner join districts d on d.DISTRICT_ID = c.DISTRICT_ID  
+where d.PARLIAMENT_ID = 14
+and 
+ (CANDIDATE_PARTY in (13, 8)
+   or
+  CANDIDATE_NAME in (
+'Brent Rathgeber',
+  'Carolyn Bennett',
+ 'Scott Brison',
+ 'Rodger Cuzner',
+ 'Stéphane Dion',
+ 'Kirsty Duncan',
+ 'Wayne Easter',
+ 'Mark Eyking',
+ 'Hedy Fry',
+ 'Ted Hsu',
+ 'Bruce Hyer',
+ 'Jean-François Larose',
+ 'John McCallum',
+ 'David McGuinty',
+ 'John McKay',
+ 'Maria Mourani',
+ 'Joyce Murray',
+ 'Claude Patry',
+ 'Manon Perreault',
+ 'Louis Plamondon',
+ 'Frank Valeriote',
+ 'Adam Vaughan'
+ ))
+group by DISTRICT_ID;
+
+
+
+### The number of votes for the winning candidate 
+minus
+### The number of votes for the highest PR supporting candidate
+
+select pr.DISTRICT_ID, 
+d.DISTRICT_UNIQUE_NAME, 
+won.CANDIDATE_NAME Winner,
+max(pr.VOTES) votes_pr, 
+pr.CANDIDATE_NAME AS 'PR Supporter',
+won.votes votes_won,
+ won.votes - max(pr.VOTES) votes_to_convince
+from contest pr
+inner join districts d on d.DISTRICT_ID = pr.DISTRICT_ID  
+inner join contest won on won.district_ID = pr.DISTRICT_ID
+where d.PARLIAMENT_ID = 14
+and won.won=1
+and 
+ (pr.CANDIDATE_PARTY in (13, 8)
+   or
+  pr.CANDIDATE_NAME in (
+'Brent Rathgeber',
+  'Carolyn Bennett',
+ 'Scott Brison',
+ 'Rodger Cuzner',
+ 'Stéphane Dion',
+ 'Kirsty Duncan',
+ 'Wayne Easter',
+ 'Mark Eyking',
+ 'Hedy Fry',
+ 'Ted Hsu',
+ 'Bruce Hyer',
+ 'Jean-François Larose',
+ 'John McCallum',
+ 'David McGuinty',
+ 'John McKay',
+ 'Maria Mourani',
+ 'Joyce Murray',
+ 'Claude Patry',
+ 'Manon Perreault',
+ 'Louis Plamondon',
+ 'Frank Valeriote',
+ 'Adam Vaughan',
+ 'Mauril Bélanger'
+ ))
+group by pr.DISTRICT_ID
+order by votes_to_convince
+INTO outfile '/tmp/170mps.csv'
+;
+
+
+
