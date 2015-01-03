@@ -56,7 +56,6 @@ select pr.DISTRICT_ID,
 d.DISTRICT_UNIQUE_NAME, 
 won.CANDIDATE_NAME Winner,
 max(pr.VOTES) votes_pr, 
-pr.CANDIDATE_NAME AS 'PR Supporter',
 won.votes votes_won,
  won.votes - max(pr.VOTES) votes_to_convince
 from contest pr
@@ -88,7 +87,7 @@ and
  'Claude Patry',
  'Manon Perreault',
  'Louis Plamondon',
- 'Frank Valeriote',
+#'Frank Valeriote',
  'Adam Vaughan',
  'Mauril Bélanger'
  ))
@@ -98,4 +97,98 @@ INTO outfile '/tmp/170mps.csv'
 ;
 
 
+
+### Modify the contest table with a pro pr column
+
+
+alter table contest add column pr2015 boolean;
+
+update contest pr set pr2015 = true where 
+ (pr.CANDIDATE_PARTY in (13, 8) 
+   or
+  pr.CANDIDATE_NAME in (
+'Brent Rathgeber',
+  'Carolyn Bennett',
+ 'Scott Brison',
+ 'Rodger Cuzner',
+ 'Stéphane Dion',
+ 'Kirsty Duncan',
+ 'Wayne Easter',
+ 'Mark Eyking',
+ 'Hedy Fry',
+ 'Ted Hsu',
+ 'Bruce Hyer',
+ 'Jean-François Larose',
+ 'John McCallum',
+ 'David McGuinty',
+ 'John McKay', 
+ 'Maria Mourani',
+ 'Joyce Murray',
+ 'Claude Patry', 
+ 'Manon Perreault',
+ 'Louis Plamondon',
+#'Frank Valeriote',
+ 'Adam Vaughan',
+ 'Mauril Bélanger'
+ ));
+
+### Set the other contests of election #14 to false
+update contest c, districts d
+set c.pr2015 = false
+where c.DISTRICT_ID = d.DISTRICT_ID 
+and d.PARLIAMENT_ID = 14
+and c.pr2015 is null;
+
+### Check the results 
+select c.CANDIDATE_NAME, d.DISTRICT_UNIQUE_NAME, c.pr2015
+from contest c, districts d
+where c.DISTRICT_ID = d.DISTRICT_ID
+and d.PARLIAMENT_ID = 14
+and d.DISTRICT_UNIQUE_NAME like '%Ottawa%';
+
+
+
+
+### Highest non-PR - highest PR
+
+select p.PROVINCE_SYMBOL,
+d.DISTRICT_ENGLISH_NAME,
+won.CANDIDATE_NAME Winner,
+max(pr.VOTES) pr_votes, 
+max(nonpr.VOTES) non_pr_votes,
+max(nonpr.VOTES)-max(pr.VOTES) votes_to_convince
+from contest pr
+inner join contest won on won.district_ID = pr.district_ID
+inner join districts d on d.DISTRICT_ID = pr.DISTRICT_ID  
+inner join contest nonpr on pr.district_ID = nonpr.DISTRICT_ID
+inner join province p on d.PROVINCE_ID = p.PROVINCE_ID
+where d.PARLIAMENT_ID = 14
+and pr.pr2015 = TRUE
+and nonpr.pr2015 = FALSE
+and won.WON = 1
+group by pr.DISTRICT_ID
+order by votes_to_convince
+INTO outfile '/tmp/170mps.csv'
+;
+
+
+
+### Number of pro-PR votes for parliement 14 who have won
+
+### Number of non-PR votes for parliament 14 who have won
+
+select c.pr2015, sum(VOTES)
+from contest c, districts d
+where c.DISTRICT_ID = d.DISTRICT_ID
+and d.PARLIAMENT_ID = 14
+#and c.WON = 1
+group by pr2015
+;
+
+
+select sum(VOTES)
+from contest c, districts d
+where c.DISTRICT_ID = d.DISTRICT_ID
+and d.PARLIAMENT_ID = 14
+;
 
