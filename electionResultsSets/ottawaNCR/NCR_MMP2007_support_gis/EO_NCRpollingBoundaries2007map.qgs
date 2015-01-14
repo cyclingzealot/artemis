@@ -17,10 +17,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>1643040.31709190970286727</xmin>
-            <ymin>5707356.65706789493560791</ymin>
-            <xmax>1646257.65335929160937667</xmax>
-            <ymax>5709589.86694760620594025</ymax>
+            <xmin>1646750.52599948574788868</xmin>
+            <ymin>5709109.39412347320467234</ymin>
+            <xmax>1648836.34146096673794091</xmax>
+            <ymax>5710557.19544379506260157</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -345,7 +345,7 @@
             <ComposerLabel valign="32" labelText="Map of support for MMP, Ontario 2007 referendum.&#xa;Goal of the map is to identify polling boundaries for foot canvassing.&#xa;" htmlState="0" halign="1" margin="1">
                 <LabelFont description="Ubuntu,16,-1,5,75,1,0,0,0,0"/>
                 <FontColor red="0" blue="0" green="0"/>
-                <ComposerItem pagey="66.288" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="17.847" y="66.288" visibility="1" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="52.414" outlineWidth="0.3" excludeFromExports="0" uuid="{fce10fd4-8acb-40f8-84d9-dccc18987810}" height="50.873" itemRotation="0" frame="false" pagex="17.847">
+                <ComposerItem pagey="66.288" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="17.847" y="66.288" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="52.414" outlineWidth="0.3" excludeFromExports="0" uuid="{fce10fd4-8acb-40f8-84d9-dccc18987810}" height="50.873" itemRotation="0" frame="false" pagex="17.847">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -355,7 +355,7 @@
                 <fillColor2 alpha="255" red="255" blue="255" green="255"/>
                 <strokeColor alpha="255" red="0" blue="0" green="0"/>
                 <textColor alpha="255" red="0" blue="0" green="0"/>
-                <ComposerItem pagey="182.5" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="196.423" y="182.5" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="91.5769" outlineWidth="0.3" excludeFromExports="0" uuid="{6be8449a-9df9-45a5-a22d-f7c572b5f560}" height="20" itemRotation="0" frame="false" pagex="196.423">
+                <ComposerItem pagey="182.5" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="196.423" y="182.5" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="91.5769" outlineWidth="0.3" excludeFromExports="0" uuid="{6be8449a-9df9-45a5-a22d-f7c572b5f560}" height="20" itemRotation="0" frame="false" pagex="196.423">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -383,8 +383,101 @@
                 <Extent ymin="5707011.66362753696739674" xmin="1642904.00283625698648393" ymax="5708961.46862952597439289" xmax="1645693.72383910254575312"/>
                 <LayerSet/>
                 <Grid/>
+                <ComposerMapGrid leftAnnotationDirection="0" annotationFont="Ubuntu,11,-1,5,50,0,0,0,0,0" gridFramePenThickness="0.5" showAnnotation="0" bottomAnnotationDirection="0" bottomAnnotationPosition="1" name="Grille 1" gridStyle="0" intervalX="0" intervalY="0" gridFrameStyle="0" rightAnnotationPosition="1" topAnnotationDirection="0" leftAnnotationPosition="1" blendMode="0" show="0" frameFillColor1="255,255,255,255" gridFrameWidth="2" frameFillColor2="0,0,0,255" annotationFontColor="0,0,0,255" gridFrameSideFlags="15" gridFramePenColor="0,0,0,255" offsetX="0" annotationPrecision="3" offsetY="0" frameAnnotationDistance="1" unit="0" uuid="{7ef0ea0d-c43a-40aa-8fac-5896c05e7ae9}" topAnnotationPosition="1" rightAnnotationDirection="0" annotationFormat="0" crossLength="3">
+                    <lineStyle>
+                        <symbol alpha="1" type="line" name="">
+                            <layer pass="0" class="SimpleLine" locked="0">
+                                <prop k="capstyle" v="square"/>
+                                <prop k="customdash" v="5;2"/>
+                                <prop k="customdash_map_unit_scale" v="0,0"/>
+                                <prop k="customdash_unit" v="MM"/>
+                                <prop k="draw_inside_polygon" v="0"/>
+                                <prop k="joinstyle" v="bevel"/>
+                                <prop k="line_color" v="0,0,0,255"/>
+                                <prop k="line_style" v="solid"/>
+                                <prop k="line_width" v="0"/>
+                                <prop k="line_width_unit" v="MM"/>
+                                <prop k="offset" v="0"/>
+                                <prop k="offset_map_unit_scale" v="0,0"/>
+                                <prop k="offset_unit" v="MM"/>
+                                <prop k="use_custom_dash" v="0"/>
+                                <prop k="width_map_unit_scale" v="0,0"/>
+                            </layer>
+                        </symbol>
+                    </lineStyle>
+                    <markerStyle>
+                        <symbol alpha="1" type="marker" name="">
+                            <layer pass="0" class="SimpleMarker" locked="0">
+                                <prop k="angle" v="0"/>
+                                <prop k="color" v="0,0,0,255"/>
+                                <prop k="horizontal_anchor_point" v="1"/>
+                                <prop k="name" v="circle"/>
+                                <prop k="offset" v="0,0"/>
+                                <prop k="offset_map_unit_scale" v="0,0"/>
+                                <prop k="offset_unit" v="MM"/>
+                                <prop k="outline_color" v="0,0,0,255"/>
+                                <prop k="outline_style" v="solid"/>
+                                <prop k="outline_width" v="0"/>
+                                <prop k="outline_width_map_unit_scale" v="0,0"/>
+                                <prop k="outline_width_unit" v="MM"/>
+                                <prop k="scale_method" v="area"/>
+                                <prop k="size" v="2"/>
+                                <prop k="size_map_unit_scale" v="0,0"/>
+                                <prop k="size_unit" v="MM"/>
+                                <prop k="vertical_anchor_point" v="1"/>
+                            </layer>
+                        </symbol>
+                    </markerStyle>
+                </ComposerMapGrid>
                 <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
                 <ComposerItem pagey="7.5" page="1" id="" lastValidViewScaleFactor="1.94605" positionMode="0" positionLock="false" x="9" y="7.5" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="279" outlineWidth="0.3" excludeFromExports="0" uuid="{f8deb6bb-944a-4bb6-a434-25c027fa8e7a}" height="195" itemRotation="0" frame="false" pagex="9">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+        </Composition>
+    </Composer>
+    <Composer title="downtownHighSupport" visible="0">
+        <Composition gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="5" numPages="1" paperHeight="210" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+            <symbol alpha="1" type="fill" name="">
+                <layer pass="0" class="SimpleFill" locked="0">
+                    <prop k="border_width_map_unit_scale" v="0,0"/>
+                    <prop k="color" v="255,255,255,255"/>
+                    <prop k="joinstyle" v="miter"/>
+                    <prop k="offset" v="0,0"/>
+                    <prop k="offset_map_unit_scale" v="0,0"/>
+                    <prop k="offset_unit" v="MM"/>
+                    <prop k="outline_color" v="0,0,0,255"/>
+                    <prop k="outline_style" v="no"/>
+                    <prop k="outline_width" v="0.26"/>
+                    <prop k="outline_width_unit" v="MM"/>
+                    <prop k="style" v="solid"/>
+                </layer>
+            </symbol>
+            <ComposerLabel valign="32" labelText="Downtown support for MMP.  Two highest polling area are bounded by MacClaren, James, Kent and Bay.  These are the 2nd and 3rd highest Ontario MMP 2007 support in NCR, excluding joining errors." htmlState="0" halign="1" margin="1">
+                <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
+                <FontColor red="0" blue="0" green="0"/>
+                <ComposerItem pagey="172.556" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6" y="172.556" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="55.4361" outlineWidth="0.3" excludeFromExports="0" uuid="{d9ad9b6e-9f4b-463a-a415-d6a385b667de}" height="27.4436" itemRotation="0" frame="false" pagex="6">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLabel>
+            <ComposerScaleBar segmentMillimeters="19.9755" numMapUnitsPerScaleBarUnit="1" numSegments="2" height="3" alignment="0" labelBarSpace="3" outlineWidth="1" units="1" numSegmentsLeft="1" lineJoinStyle="miter" style="Line Ticks Down" unitLabel=" m" lineCapStyle="square" font="Ubuntu,12,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="100">
+                <fillColor alpha="255" red="0" blue="0" green="0"/>
+                <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+                <strokeColor alpha="255" red="0" blue="0" green="0"/>
+                <textColor alpha="255" red="0" blue="0" green="0"/>
+                <ComposerItem pagey="183.842" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="210.414" y="183.842" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="76.586" outlineWidth="0.3" excludeFromExports="0" uuid="{a2714a55-6b89-4473-9ae3-f62a03b81239}" height="16.1579" itemRotation="0" frame="false" pagex="210.414">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerScaleBar>
+            <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+                <Extent ymin="5709536.33548699598759413" xmin="1647139.8239845943171531" ymax="5710491.33548797015100718" xmax="1648544.82398602762259543"/>
+                <LayerSet/>
+                <Grid/>
+                <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+                <ComposerItem pagey="9" page="1" id="" lastValidViewScaleFactor="1.82192" positionMode="0" positionLock="false" x="6" y="9" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="281" outlineWidth="0.3" excludeFromExports="0" uuid="{bf866fd7-46c8-4a40-bcf6-82b80fe0ef16}" height="191" itemRotation="0" frame="false" pagex="6">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -480,10 +573,10 @@
             </edittypes>
             <renderer-v2 attr="referendumMMP2007pollByPollResultsFLATTENED_NCR_MMP PCT" symbollevels="0" type="graduatedSymbol">
                 <ranges>
-                    <range render="true" symbol="0" lower="0.000000" upper="40.000000" label="0-40%"/>
-                    <range render="true" symbol="1" lower="40.000000" upper="50.000000" label="40-50%"/>
-                    <range render="true" symbol="2" lower="50.000000" upper="60.000000" label="50-60%"/>
-                    <range render="true" symbol="3" lower="60.000000" upper="70.000000" label="60-70%"/>
+                    <range render="true" symbol="0" lower="0.000000" upper="55.000000" label="0-40%"/>
+                    <range render="true" symbol="1" lower="55.000000" upper="60.000000" label="40-50%"/>
+                    <range render="true" symbol="2" lower="60.000000" upper="65.000000" label="50-60%"/>
+                    <range render="true" symbol="3" lower="65.000000" upper="70.000000" label="60-70%"/>
                     <range render="true" symbol="4" lower="70.000000" upper="82.051282" label="70%-83%"/>
                 </ranges>
                 <symbols>
@@ -640,7 +733,7 @@
                 <property key="labeling/labelOffsetInMapUnits" value="true"/>
                 <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
                 <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
-                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/labelPerPart" value="true"/>
                 <property key="labeling/leftDirectionSymbol" value="&lt;"/>
                 <property key="labeling/limitNumLabels" value="false"/>
                 <property key="labeling/maxCurvedCharAngleIn" value="20"/>
@@ -953,7 +1046,7 @@
                 </edittype>
             </edittypes>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>roadways20140828194420848</id>
             <datasource>./roadways/roadways.shp</datasource>
             <title></title>
@@ -1273,7 +1366,7 @@
                 <property key="labeling/bufferTransp" value="0"/>
                 <property key="labeling/centroidInside" value="false"/>
                 <property key="labeling/centroidWhole" value="false"/>
-                <property key="labeling/dataDefined/Show" value="1~~1~~&quot;class&quot; IN ('arterial')~~class"/>
+                <property key="labeling/dataDefined/Show" value="0~~1~~&quot;class&quot; IN ('arterial')~~class"/>
                 <property key="labeling/decimals" value="3"/>
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
@@ -1289,7 +1382,7 @@
                 <property key="labeling/fontLetterSpacing" value="0"/>
                 <property key="labeling/fontLimitPixelSize" value="true"/>
                 <property key="labeling/fontMaxPixelSize" value="9998"/>
-                <property key="labeling/fontMinPixelSize" value="100"/>
+                <property key="labeling/fontMinPixelSize" value="1"/>
                 <property key="labeling/fontSize" value="7.25"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
@@ -1309,7 +1402,7 @@
                 <property key="labeling/maxCurvedCharAngleIn" value="20"/>
                 <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
                 <property key="labeling/maxNumLabels" value="50"/>
-                <property key="labeling/mergeLines" value="true"/>
+                <property key="labeling/mergeLines" value="false"/>
                 <property key="labeling/minFeatureSize" value="5"/>
                 <property key="labeling/multilineAlign" value="0"/>
                 <property key="labeling/multilineHeight" value="1"/>
