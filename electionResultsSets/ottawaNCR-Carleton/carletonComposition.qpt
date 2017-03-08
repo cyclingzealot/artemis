@@ -1,0 +1,59 @@
+<Composer title="Carleton" visible="1">
+ <Composition gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="5" numPages="1" paperHeight="210" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+  <symbol alpha="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+   </layer>
+  </symbol>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Carleton support for MMP in 2007.  Ontario 2007 polling areas are ranked from 1 to 20, 1 being highest support for MMP" htmlState="0" halign="1">
+   <LabelFont description="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="190.992" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="51.5203" y="190.992" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="116.57" outlineWidth="0.3" excludeFromExports="0" uuid="{2f5de4c8-adbe-419d-b1f0-acd855aac410}" height="13.0079" itemRotation="0" frame="false" pagex="51.5203">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLegend symbolWidth="7" title="Légende" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" titleAlignment="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1">
+   <styles>
+    <style marginBottom="2" name="title" font="Sans Serif,16,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="group" font="Sans Serif,14,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="subgroup" font="Sans Serif,12,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="symbol" font="Sans Serif,9,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" marginLeft="2" name="symbolLabel" font="Sans Serif,12,-1,5,50,0,0,0,0,0"/>
+   </styles>
+   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Représentation_2013_copier20150927095438306" name="Carleton">
+     <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="CarletonPollingAreas20150927101636835" name="CarletonPollingAreas">
+     <customproperties/>
+    </layer-tree-layer>
+   </layer-tree-group>
+   <ComposerItem pagey="142.6" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="4" y="142.6" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.5203" outlineWidth="0.3" excludeFromExports="0" uuid="{dfa197ce-6d55-45a9-babf-b22f3bfdaa3c}" height="61.4" itemRotation="0" frame="false" pagex="4">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+   <Extent ymin="5677640.06602136231958866" xmin="1628897.57996962498873472" ymax="5703381.89358671940863132" xmax="1665893.37234998820349574"/>
+   <LayerSet/>
+   <Grid/>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="5" page="1" id="" lastValidViewScaleFactor="1.99879" positionMode="0" positionLock="false" x="4" y="5" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="286" outlineWidth="0.3" excludeFromExports="0" uuid="{7aaf5ca4-9fb4-4ac9-81ae-dee6e1fc7bce}" height="199" itemRotation="0" frame="false" pagex="4">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+ </Composition>
+</Composer>
