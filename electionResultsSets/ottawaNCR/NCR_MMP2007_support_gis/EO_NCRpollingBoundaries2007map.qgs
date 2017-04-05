@@ -31,10 +31,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1647432.49702231888659298</xmin>
-      <ymin>5711978.08540730085223913</ymin>
-      <xmax>1648718.97949369275011122</xmax>
-      <ymax>5712846.49614860955625772</ymax>
+      <xmin>1601273.27368360734544694</xmin>
+      <ymin>5676978.63601232599467039</ymin>
+      <xmax>1639241.9786569771822542</xmax>
+      <ymax>5701046.47625018563121557</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -420,7 +420,7 @@
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="153.2" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="9" y="153.2" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="26.9422" outlineWidth="0.3" excludeFromExports="0" uuid="{fdfa4c30-0e98-4c7c-88c9-c623d7f2400f}" height="49.3" itemRotation="0" frame="false" pagex="9">
+        <ComposerItem pagey="153.2" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="9" y="153.2" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="30.9359" outlineWidth="0.3" excludeFromExports="0" uuid="{fdfa4c30-0e98-4c7c-88c9-c623d7f2400f}" height="49.3" itemRotation="0" frame="false" pagex="9">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         </ComposerItem>
@@ -924,7 +924,7 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Ottawa-Vanier support for MMP" htmlState="0" halign="1">
         <LabelFont description="Sans Serif,36,-1,5,50,0,0,0,0,0"/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="9" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6" y="9" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="151.943" outlineWidth="0.3" excludeFromExports="0" uuid="{4f88fea0-6455-4bc0-a377-19c640f8309f}" height="29.4423" itemRotation="0" frame="false" pagex="6">
+        <ComposerItem pagey="9" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6" y="9" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="151.943" outlineWidth="0.3" excludeFromExports="0" uuid="{4f88fea0-6455-4bc0-a377-19c640f8309f}" height="29.4423" itemRotation="0" frame="false" pagex="6">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         </ComposerItem>
@@ -956,7 +956,7 @@
             </customproperties>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="109.156" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6" y="109.156" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="45.8078" outlineWidth="0.3" excludeFromExports="0" uuid="{cc6df3b2-cc43-4f8e-8805-93e5385e2f97}" height="63.4" itemRotation="0" frame="false" pagex="6">
+        <ComposerItem pagey="109.156" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6" y="109.156" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="41.1344" outlineWidth="0.3" excludeFromExports="0" uuid="{cc6df3b2-cc43-4f8e-8805-93e5385e2f97}" height="63.4" itemRotation="0" frame="false" pagex="6">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         </ComposerItem>
@@ -980,7 +980,7 @@
         </ComposerItem>
       </ComposerScaleBar>
       <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="5709392.71174997463822365" xmin="1644335.17260105535387993" ymax="5719883.39153926633298397" xmax="1659769.10464708274230361"/>
+        <Extent ymin="5709392.71174997463822365" xmin="1644335.17260105535387993" ymax="5719883.39153926726430655" xmax="1659769.10464708274230361"/>
         <LayerSet/>
         <Grid/>
         <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationFont="Sans Serif,9,-1,5,50,0,0,0,0,0" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{16e7fb72-0d7d-41a2-b268-1183ad06a8e5}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grille 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
@@ -1036,6 +1036,66 @@
         </ComposerItem>
       </ComposerMap>
     </Composition>
+  </Composer>
+  <Composer title="Atlas generation - polilngArea" visible="1">
+    <Composition gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="5" numPages="1" paperHeight="210" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+      <symbol alpha="1" type="fill" name="">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="color" v="255,255,255,255"/>
+          <prop k="joinstyle" v="miter"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+        <Extent ymin="5658529.43327680882066488" xmin="1583266.51390290516428649" ymax="5729998.16236353293061256" xmax="1685858.72178546083159745"/>
+        <LayerSet/>
+        <Grid/>
+        <AtlasMap scalingMode="2" atlasDriven="1" margin="0"/>
+        <ComposerItem pagey="13" page="1" id="" lastValidViewScaleFactor="1.97762" positionMode="0" positionLock="false" x="16" y="13" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="267" outlineWidth="0.3" excludeFromExports="0" uuid="{5e32ff06-7599-4b88-aa61-50583730be43}" height="186" itemRotation="0" frame="false" pagex="16">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+        </ComposerItem>
+      </ComposerMap>
+    </Composition>
+    <Atlas hideCoverage="false" featureFilter=" &quot;referendumMMP2007pollByPollResultsFLATTENED_NCR_MMP PCT&quot; > 60" coverageLayer="EO_107PD20140828182831669" singleFile="false" filenamePattern="'riding_'||&quot;EDPOLL_KEY&quot; " enabled="true" filterFeatures="true" sortFeatures="false"/>
+  </Composer>
+  <Composer title="Atlas generation - ridings" visible="1">
+    <Composition gridVisible="0" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="5" numPages="1" paperHeight="210" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+      <symbol alpha="1" type="fill" name="">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0"/>
+          <prop k="color" v="255,255,255,255"/>
+          <prop k="joinstyle" v="miter"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+        <Extent ymin="5676978.63601232599467039" xmin="1601273.27368360664695501" ymax="5703213.95646267663687468" xmax="1639241.97865697788074613"/>
+        <LayerSet/>
+        <Grid/>
+        <AtlasMap scalingMode="2" atlasDriven="1" margin="0.10000000000000001"/>
+        <ComposerItem pagey="5" page="1" id="" lastValidViewScaleFactor="1.90203" positionMode="0" positionLock="false" x="3" y="5" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="288" outlineWidth="0.3" excludeFromExports="0" uuid="{037a684a-3d82-4ed0-8bf6-7d345e936967}" height="199" itemRotation="0" frame="false" pagex="3">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+        </ComposerItem>
+      </ComposerMap>
+    </Composition>
+    <Atlas hideCoverage="false" featureFilter="  strpos(&quot;ENNAME&quot;, 'Ottawa')  >= 0&#x9;&#x9;" coverageLayer="FED_CA_2_1_en20150929115845317" singleFile="false" filenamePattern="'output_'||$feature" enabled="true" filterFeatures="true" sortFeatures="false"/>
   </Composer>
   <projectlayers layercount="7">
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
@@ -1500,7 +1560,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>EO_107PD20140828182831669</id>
       <datasource>./EO_107PD.shp</datasource>
       <title></title>
@@ -1606,9 +1666,9 @@
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="227,26,28,61"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_color" v="140,140,2,255"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="1"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
             </layer>
@@ -1621,9 +1681,9 @@
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="227,26,28,61"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_color" v="140,140,2,255"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="1"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
             </layer>
@@ -1636,9 +1696,9 @@
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="227,26,28,61"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_color" v="140,140,2,255"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="1"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
             </layer>
@@ -1651,9 +1711,9 @@
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="227,26,28,61"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_color" v="140,140,2,255"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="1"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
             </layer>
@@ -1666,9 +1726,9 @@
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="227,26,28,61"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_color" v="140,140,2,255"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="1"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
             </layer>
@@ -1683,9 +1743,9 @@
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="227,26,28,61"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_color" v="140,140,2,255"/>
+              <prop k="outline_style" v="dash"/>
+              <prop k="outline_width" v="1"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
             </layer>
@@ -1729,15 +1789,15 @@
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
         <property key="labeling/enabled" value="true"/>
-        <property key="labeling/fieldName" value="Rank"/>
+        <property key="labeling/fieldName" value="EDPOLL_KEY"/>
         <property key="labeling/fontBold" value="true"/>
         <property key="labeling/fontCapitals" value="0"/>
         <property key="labeling/fontFamily" value="Ubuntu"/>
         <property key="labeling/fontItalic" value="true"/>
         <property key="labeling/fontLetterSpacing" value="0"/>
-        <property key="labeling/fontLimitPixelSize" value="false"/>
-        <property key="labeling/fontMaxPixelSize" value="10000"/>
-        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontLimitPixelSize" value="true"/>
+        <property key="labeling/fontMaxPixelSize" value="500"/>
+        <property key="labeling/fontMinPixelSize" value="1"/>
         <property key="labeling/fontSize" value="8"/>
         <property key="labeling/fontSizeInMapUnits" value="false"/>
         <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
@@ -1753,10 +1813,10 @@
         <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
         <property key="labeling/labelPerPart" value="true"/>
         <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/limitNumLabels" value="true"/>
         <property key="labeling/maxCurvedCharAngleIn" value="20"/>
         <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/maxNumLabels" value="10"/>
         <property key="labeling/mergeLines" value="false"/>
         <property key="labeling/minFeatureSize" value="0"/>
         <property key="labeling/multilineAlign" value="0"/>
@@ -1777,9 +1837,9 @@
         <property key="labeling/repeatDistanceUnit" value="1"/>
         <property key="labeling/reverseDirectionSymbol" value="false"/>
         <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000"/>
+        <property key="labeling/scaleMax" value="170000"/>
         <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/scaleVisibility" value="true"/>
         <property key="labeling/shadowBlendMode" value="6"/>
         <property key="labeling/shadowColorB" value="0"/>
         <property key="labeling/shadowColorG" value="0"/>
@@ -1810,7 +1870,7 @@
         <property key="labeling/shapeBorderWidthUnits" value="1"/>
         <property key="labeling/shapeDraw" value="true"/>
         <property key="labeling/shapeFillColorA" value="255"/>
-        <property key="labeling/shapeFillColorB" value="127"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
         <property key="labeling/shapeFillColorG" value="255"/>
         <property key="labeling/shapeFillColorR" value="255"/>
         <property key="labeling/shapeJoinStyle" value="64"/>
@@ -1963,7 +2023,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">ogr</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "ENNAME", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
