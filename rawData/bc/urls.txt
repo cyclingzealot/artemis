@@ -1,0 +1,7 @@
+/home/jlam/programming/artemis/rawData/bc
+https://catalogue.data.gov.bc.ca/dataset/provincial-electoral-district-voting-areas-gazetted-02-23-2017
+Provincial Electoral District Voting Areas
+https://catalogue.data.gov.bc.ca/dataset/provincial-electoral-district-voting-areas-gazetted-02-23-2017
+
+Provincial Voting Results
+https://catalogue.data.gov.bc.ca/dataset/provincial-voting-results
