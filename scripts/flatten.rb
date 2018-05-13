@@ -53,6 +53,16 @@ def getValue(row, header, keyType)
     return row[header]
 end
 
+def suffixBeforeFileType(filePath)
+    fileParts = filePath.split('.')
+    fileTypeSuffix = fileParts.pop
+
+    fileParts.push("flattened")
+    fileParts.push(fileTypeSuffix)
+
+    fileParts.join('.')
+end
+
 #https://stackoverflow.com/questions/26434923/parse-command-line-arguments-in-a-ruby-script#26444165
 options = OpenStruct.new
 op = OptionParser.new do |opt|
@@ -110,12 +120,30 @@ CSV.open(filePath, 'rb', headers: :first_row, encoding: 'ISO-8859-1', col_sep: s
 
         printProgress("Reading & parsing #{identifier}", i, totalLines, true)
 
-        resultsFlatten[identifier] = PollingArea.new if resultsFlatten[identifier].nil?
+        resultsFlatten[identifier] = PollingArea.new(eda, pollingArea) if resultsFlatten[identifier].nil?
 
         resultsFlatten[identifier].addResults(affiliation, votes) if affiliation.present?
 
     end
 end
 
-puts "#{resultsFlatten.count} polling area objects created from #{totalLines} rows"
+puts "#{resultsFlatten.count} polling area objects created from flattening #{totalLines} rows"
+
+
+writeToFilePath = suffixBeforeFileType(filePath)
+CSV.open(writeToFilePath, 'wb') do |csv|
+    csv << resultsFlatten.values.first.toCsv.keys
+
+
+    resultsFlatten.each_with_index {|(identifier, pollingAreaObj), i|
+        printProgress("Writting #{identifier}", i, resultsFlatten.count, true)
+        next if pollingAreaObj.getTotalVotes == 0
+        csv << pollingAreaObj.toCsv.values
+    }
+end
+
+puts "Done writting to #{writeToFilePath}"
+
+
+
 
