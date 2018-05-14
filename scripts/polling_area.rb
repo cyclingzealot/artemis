@@ -53,6 +53,7 @@ class PollingArea
         csvHash = {
             :ed             => self.ed,
             :polling_area   => self.polling_area,
+            :edpa           => self.ed + self.polling_area,
             :total_votes    => self.getTotalVotes(),
             :winner         => self.getWinnerAffiliation(),
             :winner_pct     => self.getWinnerPct(),
