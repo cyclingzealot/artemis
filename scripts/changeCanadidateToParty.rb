@@ -48,10 +48,18 @@ end
 lastNameLookups = {}
 CSV.open(affiliationPath, headers: :first_row) do |csv|
     csv.each do |row|
-        lastName = row["Candidate"].strip.split(' ').drop(1).join(' ').downcase
+        nameParts = row["Candidate"].strip.split(' ')
+        lastName = nameParts.last.downcase
+        exceptFirstName = nil
+        exceptFirstName = nameParts.drop(1).join(' ').downcase if nameParts.count > 2
 
-        lastNameLookups[lastName] = [] if lastNameLookups[lastName].nil?
-        lastNameLookups[lastName] << row
+
+        [lastName, exceptFirstName].each {|nameLike|
+            next if nameLike.nil?
+            lastNameLookups[nameLike] = [] if lastNameLookups[nameLike].nil?
+            lastNameLookups[nameLike] << row
+        }
+
 
     end
 end
