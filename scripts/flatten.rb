@@ -5,63 +5,9 @@ require 'byebug'
 require 'facets'
 
 require_relative './polling_area.rb'
+require_relative './library.rb'
 
 #Testing with bc data: rvmDo ruby ./flatten.rb -f ../rawData/bc/provincialvotingresults.csv -p AFFLIATION -v VOTES_CONSIDERED -e ED_ABBREVIATION -o VA_CODE
-
-    ########################################################################
-    # Just print a line to indicate progress
-    # @param [String] doingWhatStr What do you want to tell the user you are doing
-    ########################################################################
-    def printProgress(doingWhatStr, count, total, zeroBased = false)
-        return if total <= 2
-        count += 1 if zeroBased == true
-        puts "Started #{DateTime.now.strftime('%H:%M:%S')}" if count == 1
-        progressStr = "#{count} / #{total} #{(count.to_f * 100/total).round} %"
-        print ("\u001b[1000D" + progressStr + ' : ' + doingWhatStr)
-        if count == total
-            puts "\n"
-            puts "Done #{DateTime.now.strftime('%H:%M:%S')}"
-            puts "\n"
-        else
-            print '... '
-        end
-    end
-
-
-
-def detectSeperator(filePath)
-    seperators = [';', ':', "\t", ',', '|']
-    firstLine = getFirstLine(filePath)
-
-    seperators.max_by{ |s|
-        firstLine.split(s).count
-    }
-end
-
-def getFirstLine(filePath)
-    File.open(filePath, &:readline)
-end
-
-def getHeaders(filePath)
-    sep = detectSeperator(filePath)
-    getFirstLine(filePath).split(sep)
-end
-
-def getValue(row, header, keyType)
-    header = header.to_s if keyType == String
-    header = header.to_sym if keyType == Symbol
-    return row[header]
-end
-
-def suffixBeforeFileType(filePath)
-    fileParts = filePath.split('.')
-    fileTypeSuffix = fileParts.pop
-
-    fileParts.push("flattened")
-    fileParts.push(fileTypeSuffix)
-
-    fileParts.join('.')
-end
 
 #https://stackoverflow.com/questions/26434923/parse-command-line-arguments-in-a-ruby-script#26444165
 options = OpenStruct.new
@@ -89,6 +35,7 @@ if not File.exists?(filePath)
     $stderr.puts "File #{filePath} does not exist"
     exit 1
 end
+
 
 
 seperator=detectSeperator(filePath)
@@ -129,18 +76,7 @@ end
 
 puts "#{resultsFlatten.count} polling area objects created from flattening #{totalLines} rows"
 
-
-writeToFilePath = suffixBeforeFileType(filePath)
-CSV.open(writeToFilePath, 'wb') do |csv|
-    csv << resultsFlatten.values.first.toCsv.keys
-
-
-    resultsFlatten.each_with_index {|(identifier, pollingAreaObj), i|
-        printProgress("Writting #{identifier}", i, resultsFlatten.count, true)
-        next if pollingAreaObj.getTotalVotes == 0
-        csv << pollingAreaObj.toCsv.values
-    }
-end
+writePollingAreas(filePath, resultsFlatten)
 
 puts "Done writting to #{writeToFilePath}"
 
