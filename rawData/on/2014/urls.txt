@@ -1,0 +1,8 @@
+Shapefiles:
+https://www.elections.on.ca/content/dam/NGW/sitecontent/2016/preo/shapefiles/Polling%20Division%20Shapefile%20-%202014%20General%20Election.zip
+
+Resulst:
+https://www.elections.on.ca/content/dam/NGW/sitecontent/2017/results/Poll%20by%20Poll%20Results%20-%20Excel.zip
+
+Normalized data set for ridings:
+https://raw.githubusercontent.com/Aazih/wastedvotes.ca/master/Data/on_41_district_contest.csv
